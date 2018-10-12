@@ -1,0 +1,45 @@
+<exconf>
+  <ms col_freeze="2" row_freeze="2" tab_color="red" tab_data="" tab_data_row_start_num="2" theme="theme_1">
+    <has_merged_headers merge_range_size="A1:B1" merge_range_text="comp keys" row_size="" />
+    <has_merged_headers merge_range_size="C1:H1" merge_range_text="Current situation" row_size="" />
+    <headers autofilter="1" row_number="1">
+      <fields>country</fields>
+      <fields>item_no</fields>
+      <fields>item</fields>
+      <fields>weight(kg)</fields>
+      <fields>color</fields>
+      <fields>shape</fields>
+      <fields>price</fields>
+      <fields>status</fields>
+    </headers>
+  </ms>
+  <mt col_freeze="2" row_freeze="2" tab_color="blue" tab_data="" tab_data_row_start_num="2" theme="theme_2">
+    <has_merged_headers merge_range_size="A1:B1" merge_range_text="comp keys" row_size="" />
+    <has_merged_headers merge_range_size="C1:H1" merge_range_text="Current situation" row_size="" />
+    <headers autofilter="1" row_number="1">
+      <fields>country</fields>
+      <fields>item_no</fields>
+      <fields>item</fields>
+      <fields>weight(kg)</fields>
+      <fields>color</fields>
+      <fields>shape</fields>
+      <fields>price</fields>
+      <fields>status</fields>
+    </headers>
+    <override data_cell_bg_color="#cdfcc1" />
+  </mt>
+  <diff col_freeze="2" row_freeze="2" tab_color="red" tab_data="" tab_data_row_start_num="2" theme="theme_1">
+    <has_merged_headers merge_range_size="A1:B1" merge_range_text="comp keys" row_size="" />
+    <has_merged_headers merge_range_size="C1:H1" merge_range_text="Current situation" row_size="" />
+    <headers autofilter="1" row_number="1">
+      <fields>country</fields>
+      <fields>item_no</fields>
+      <fields>item</fields>
+      <fields>weight(kg)</fields>
+      <fields>color</fields>
+      <fields>shape</fields>
+      <fields>price</fields>
+      <fields>status</fields>
+    </headers>
+  </diff>
+</exconf>

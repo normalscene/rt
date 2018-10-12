@@ -1,0 +1,18 @@
+<recon_config>
+  <source_file.csv>
+    <keys>0</keys>
+    <keys>1</keys>
+    <keys>2</keys>
+    <values>3</values>
+    <values>4</values>
+    <values>5</values>
+  </source_file.csv>
+  <target_file.csv>
+    <keys>0</keys>
+    <keys>1</keys>
+    <keys>2</keys>
+    <values>3</values>
+    <values>4</values>
+    <values>5</values>
+  </target_file.csv>
+</recon_config>

@@ -1,0 +1,81 @@
+<config>
+
+  <recon_config>
+    <sca_rw.csv>
+      <keys>0</keys>
+      <values>1</values>
+      <values>2</values>
+    </sca_rw.csv>
+    <sca_voda.csv>
+      <keys>0</keys>
+      <values>1</values>
+      <values>2</values>
+    </sca_voda.csv>
+  </recon_config>
+  
+  <exconf>
+    <diff col_freeze="1" row_freeze="2" tab_color="red" tab_data="" tab_data_row_start_num="2" theme="theme_1">
+      <has_merged_headers merge_range_size="A1:A1" merge_range_text="A-party MSISDN" row_size="" />
+      <has_merged_headers merge_range_size="B1:E1" merge_range_text="B-Party MSISDN (RW and Voda) and their call duration(s)" row_size="" />
+      <headers autofilter="1" row_number="1">
+        <fields>A-Party Msisdn (RW)</fields>
+        <fields>B-Party Msisdn (RW)</fields>
+        <fields>Call Duration (RW)</fields>
+        <fields>B-Party Msisdn (Voda)</fields>
+        <fields>Call Duration (Voda)</fields>
+      </headers>
+    </diff>
+    <ms col_freeze="1" row_freeze="2" tab_color="magenta" tab_data="" tab_data_row_start_num="2" theme="theme_1">
+      <has_merged_headers merge_range_size="A1:A1" merge_range_text="A-Party MSISDN missing in RW" row_size="" />
+      <has_merged_headers merge_range_size="B1:D1" merge_range_text="B-Party and Call duration missing in RW" row_size="" />
+      <headers autofilter="1" row_number="1">
+        <fields>A-Party Msisdn (Voda)</fields>
+        <fields>B-Party Msisdn and Call duration (RW)</fields>
+        <fields>B-Party Msisdn (Voda)</fields>
+        <fields>Call Duration (Voda)</fields>
+      </headers>
+    </ms>
+    <mt col_freeze="1" row_freeze="2" tab_color="cyan" tab_data="" tab_data_row_start_num="2" theme="theme_2">
+      <has_merged_headers merge_range_size="A1:A1" merge_range_text="A-Party MSISDN missing in Voda" row_size="" />
+      <has_merged_headers merge_range_size="B1:D1" merge_range_text="B-Party and Call duration missing in Voda" row_size="" />
+      <headers autofilter="1" row_number="1">
+        <fields>A-Party Msisdn (RW)</fields>
+        <fields>B-Party Msisdn (RW)</fields>
+        <fields>Call Duration (RW)</fields>
+        <fields>B-Party Msisdn and Call duration (Voda)</fields>
+      </headers>
+      <override data_cell_bg_color="#cdfcc1" />
+    </mt>
+  </exconf>
+  
+  <exthemes>
+    <theme_1>
+      <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+      <header_format align="center" bg_color="green" border="1" color="white" font="Arial" size="12" valign="vcenter" />
+      <merge_format align="left" bg_color="red" bold="1" border="1" color="white" font="Calibri" size="14" valign="vcenter" />
+      <merge_format align="left" bg_color="navy" bold="1" border="1" color="white" font="Calibri" size="14" valign="vcenter" />
+    </theme_1>
+    <theme_2>
+      <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+      <header_format align="center" bg_color="#4e376b" border="1" color="white" font="Arial" size="12" valign="vcenter" />
+      <merge_format align="left" bg_color="navy" bold="1" border="1" color="white" font="Calibri" size="14" valign="vcenter" />
+      <merge_format align="left" bg_color="red" bold="1" border="1" color="white" font="Calibri" size="14" valign="vcenter" />
+    </theme_2>
+    <theme_3>
+      <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+      <header_format align="center" bg_color="#01015e" border="1" color="white" font="Arial" size="12" valign="vcenter" />
+      <merge_format align="left" bg_color="red" bold="1" border="1" color="white" font="Calibri" size="14" valign="vcenter" />
+      <merge_format align="left" bg_color="navy" bold="1" border="1" color="white" font="Calibri" size="14" valign="vcenter" />
+    </theme_3>
+  </exthemes>
+  
+  <exformats>
+    <green_num_format align="left" bg_color="navy" color="white" font="Calibri" size="11" valign="" />
+    <normal_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+    <null_format align="right" bg_color="#ff8d00" color="#ffffff" font="Calibri" size="11" valign="" />
+    <red_num_format align="left" bg_color="navy" color="white" font="Calibri" size="11" valign="" />
+    <zero_format align="left" bg_color="navy" color="white" font="Calibri" size="11" valign="" />
+  </exformats>
+  
+  <exprops author="Mr. Author" category="General" comments="Created with Excel::Writer::XLSX with perl 5.28" company="Dummy Corp." hyperlink_base="www.google.com" keywords="" manager="No One" status="Valid till 2019" subject="Just for testing" title="Test Excel Workbook" />
+</config>

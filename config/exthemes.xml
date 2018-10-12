@@ -1,0 +1,20 @@
+<exthemes>
+  <theme_1>
+    <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+    <header_format align="center" bg_color="green" border="" color="white" font="Arial" size="12" valign="vcenter" />
+    <merge_format align="left" bg_color="red" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+    <merge_format align="left" bg_color="navy" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+  </theme_1>
+  <theme_2>
+    <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+    <header_format align="center" bg_color="#4e376b" border="" color="white" font="Arial" size="12" valign="vcenter" />
+    <merge_format align="left" bg_color="navy" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+    <merge_format align="left" bg_color="red" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+  </theme_2>
+  <theme_3>
+    <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+    <header_format align="center" bg_color="#01015e" border="" color="white" font="Arial" size="12" valign="vcenter" />
+    <merge_format align="left" bg_color="red" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+    <merge_format align="left" bg_color="navy" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+  </theme_3>
+</exthemes>

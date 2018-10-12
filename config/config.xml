@@ -1,0 +1,97 @@
+<config>
+
+  <recon_config>
+    <source_file.csv>
+      <keys>0</keys>
+      <keys>1</keys>
+      <keys>2</keys>
+      <values>3</values>
+      <values>4</values>
+      <values>5</values>
+    </source_file.csv>
+    <target_file.csv>
+      <keys>0</keys>
+      <keys>1</keys>
+      <keys>2</keys>
+      <values>3</values>
+      <values>4</values>
+      <values>5</values>
+    </target_file.csv>
+  </recon_config>
+  
+  <exconf>
+    <diff col_freeze="3" row_freeze="2" tab_color="red" tab_data="" tab_data_row_start_num="2" theme="theme_1">
+      <has_merged_headers merge_range_size="A1:C1" merge_range_text="Comparison Key_s" row_size="" />
+      <has_merged_headers merge_range_size="D1:I1" merge_range_text="Compared Values" row_size="" />
+      <headers autofilter="1" row_number="1">
+        <fields>Key_1</fields>
+        <fields>Key_2</fields>
+        <fields>Key_3</fields>
+        <fields>Source_Value1</fields>
+        <fields>Source_Value2</fields>
+        <fields>Source_Value3</fields>
+        <fields>Target_Value1</fields>
+        <fields>Target_Value2</fields>
+        <fields>Target_Value3</fields>
+      </headers>
+    </diff>
+    <ms col_freeze="3" row_freeze="2" tab_color="magenta" tab_data="" tab_data_row_start_num="2" theme="theme_1">
+      <has_merged_headers merge_range_size="A1:C1" merge_range_text="Comparison Key_s" row_size="" />
+      <has_merged_headers merge_range_size="D1:G1" merge_range_text="Compared Values" row_size="" />
+      <headers autofilter="1" row_number="1">
+        <fields>Key_1</fields>
+        <fields>Key_2</fields>
+        <fields>Key_3</fields>
+        <fields>Source_Value</fields>
+        <fields>Target_Value1</fields>
+        <fields>Target_Value2</fields>
+        <fields>Target_Value3</fields>
+      </headers>
+    </ms>
+    <mt col_freeze="3" row_freeze="2" tab_color="cyan" tab_data="" tab_data_row_start_num="2" theme="theme_2">
+      <has_merged_headers merge_range_size="A1:C1" merge_range_text="Comparison Key_s" row_size="" />
+      <has_merged_headers merge_range_size="D1:G1" merge_range_text="Compared Values" row_size="" />
+      <headers autofilter="1" row_number="1">
+        <fields>Key_1</fields>
+        <fields>Key_2</fields>
+        <fields>Key_3</fields>
+        <fields>Source_Value1</fields>
+        <fields>Source_Value2</fields>
+        <fields>Source_Value3</fields>
+        <fields>Target_Value</fields>
+      </headers>
+      <override data_cell_bg_color="#cdfcc1" />
+    </mt>
+  </exconf>
+  
+  <exthemes>
+    <theme_1>
+      <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+      <header_format align="center" bg_color="green" border="" color="white" font="Arial" size="12" valign="vcenter" />
+      <merge_format align="left" bg_color="red" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+      <merge_format align="left" bg_color="navy" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+    </theme_1>
+    <theme_2>
+      <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+      <header_format align="center" bg_color="#4e376b" border="" color="white" font="Arial" size="12" valign="vcenter" />
+      <merge_format align="left" bg_color="navy" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+      <merge_format align="left" bg_color="red" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+    </theme_2>
+    <theme_3>
+      <data_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+      <header_format align="center" bg_color="#01015e" border="" color="white" font="Arial" size="12" valign="vcenter" />
+      <merge_format align="left" bg_color="red" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+      <merge_format align="left" bg_color="navy" bold="1" border="" color="white" font="Calibri" size="14" valign="vcenter" />
+    </theme_3>
+  </exthemes>
+  
+  <exformats>
+    <green_num_format align="left" bg_color="navy" color="white" font="Calibri" size="11" valign="" />
+    <normal_format align="right" bg_color="#dbeb6a" color="black" font="Calibri" size="11" valign="" />
+    <null_format align="right" bg_color="#ff8d00" color="#ffffff" font="Calibri" size="11" valign="" />
+    <red_num_format align="left" bg_color="navy" color="white" font="Calibri" size="11" valign="" />
+    <zero_format align="left" bg_color="navy" color="white" font="Calibri" size="11" valign="" />
+  </exformats>
+  
+  <exprops author="Mr. Author" category="General" comments="Created with Excel::Writer::XLSX with perl 5.28" company="Dummy Corp." hyperlink_base="www.google.com" keywords="" manager="No One" status="Valid till 2019" subject="Just for testing" title="Test Excel Workbook" />
+</config>

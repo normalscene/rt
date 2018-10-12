@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Data::Dumper;
+use XML::Simple qw(XMLin);
+
+my $ds = XMLin('config.xml');
+print Dumper $ds;
